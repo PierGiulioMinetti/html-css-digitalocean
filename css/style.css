@@ -106,7 +106,12 @@ a:hover {
     background-color: white;
 }
 
+.list-style-none {
+    list-style: none;
+    padding: 20px 0 20px 0;
+}
 
+.list-style-none li
 /* HEADER */
 
 
@@ -442,3 +447,17 @@ a:hover {
 
 
 /* SECTION NINE - BLUE LIST */
+
+.section-nine-container-full-width {
+    background-color: #031c4e;
+    padding-top: 50px;
+}
+
+.txt-gray {
+    color: #a6adbd;
+}
+
+.font-sz-20 {
+    font-size: 20px;
+    padding: 0 2px;
+}
