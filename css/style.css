@@ -480,6 +480,31 @@
         color: hsl(178.9, 100%, 41.8%);
         font-weight: 700;
     }
+
+    .border-blue{
+        border-bottom: 1px solid #00229d;
+    }
+
+    /* media queries */
+/*
+
+se riduco i testi per farli stare sulla stessa linea 
+diventano troppo piccoli e inlegibili
+    .sect-6-style-table>.row{
+        color: red;
+    }
+
+    .section-six-cities{
+        color: blue;
+    }
+
+    .section-six-speed{
+        color: orange;
+    }
+*/
+    /* media queries up here */
+    /* --------------------------------------- */
+
     /* SECTION SEVEN - DEVELOPMENT */
     .section-seve-container-full-width {
         background-color: #f3f5f9;
@@ -498,11 +523,18 @@
         font-weight: bolder;
         font-weight: 700;
     }
-    .section-seven-style h2,
+    
     .section-seven-style h4,
     .section-seven-style h5 {
         color: black;
     }
+
+    /* modificare quiiiiiiiiiiiiii */
+    #sect-seven-h2{
+        color: #031c4e;
+
+    }
+
     /* SECTION EIGHT - GET STARTED */
     .section-eight-container-full-width {
         background-color: #0026a0;
