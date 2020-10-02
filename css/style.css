@@ -337,6 +337,8 @@
 
     }
 
+    /* media queries */
+/* ------------------------------- */
     
 
     .pseudo-container {
@@ -365,10 +367,68 @@
     .section-four-container-full-width {
         background-color: #f3f5f9;
     }
-    .section-four-container-full-width .container h2,
-    .section-four-container-full-width .container h3 {
-        color: hsl(220, 92.6%, 15.9%);
+    .section-four-container-full-width .container h2{
+        color:#031c4e;
     }
+    .section-four-container-full-width .container h3 {
+        color:#5c6a88;
+    }
+    /* ---------------------------------------- */
+
+/* media h2 & p */
+@media screen and (max-width: 514px){
+
+    .sect-4-h2-style{
+        padding-top: 50px;
+        color:#031c4e;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 1.1;
+        
+    }
+
+    .section-four-container-full-width.container>h3{
+        color:#5c6a88;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.3;
+       
+    }
+
+}
+
+@media screen and (min-width: 515px){
+
+    .sect-4-h2-style{
+        padding-top: 50px;
+        color:#031c4e;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 1.1;
+        
+    }
+
+    .col-xs-12.txt-cntr.marg-30>p{
+        color:#5c6a88;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.3;
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    /* ------------------------------------ */
     .img-droplet {
         max-width: 100%;
     }
