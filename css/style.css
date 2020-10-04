@@ -587,6 +587,19 @@
         color: white;
         font-size: 30px;
     }
+
+    @media screen and (max-width:700px) {
+        .sect-eight-get-start{
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width:700px) {
+        .btn-sect-eight{
+            font-size: 12px;
+        }
+    }
+
     .btn-sect-eight {
         padding: 10px;
         border-radius: 5px;
