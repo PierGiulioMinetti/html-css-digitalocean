@@ -1,4 +1,11 @@
           /* Typography */
+*{
+    font-style: font-family: 'Roboto', sans-serif;
+}
+
+.blue-navi{
+    color:#031c4e;
+}
 
   a:hover {
       text-decoration: none;
@@ -39,6 +46,7 @@
       margin-left: 0;
       margin-right: 0;
   }
+
   /* Utility */
 
   .d-block {
@@ -314,6 +322,7 @@
 
     /* SECTION THREE - DEPLOY */
 
+
     /* media h2 & p */
     @media screen and (max-width: 514px){
 
@@ -327,7 +336,7 @@
 
         .col-xs-12.txt-cntr.marg-30>p{
             color:#5c6a88;
-            font-size: 17px;
+            font-size: 15px;
             font-weight: 500;
             line-height: 1.3;
            
@@ -347,17 +356,14 @@
 
         .col-xs-12.txt-cntr.marg-30>p{
             color:#5c6a88;
-            font-size: 22px;
+            font-size: 19px;
             font-weight: 500;
             line-height: 1.3;
            
         }
 
     }
-
-    /* media queries */
-/* ------------------------------- */
-    
+    /* media queries up here */    
 
     .pseudo-container {
         position: relative;
@@ -391,7 +397,6 @@
     .section-four-container-full-width .container h3 {
         color:#5c6a88;
     }
-    /* ---------------------------------------- */
 
 /* media h2 & p */
 @media screen and (max-width: 514px){
@@ -434,8 +439,22 @@
        
     }
 
-}
-    /* ------------------------------------ */
+}   
+    @media screen and (max-width: 465px) {
+        .sect-four-img-description{
+            font-size: 8px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .sect-four-img-description{
+            font-size: 9px;
+        }
+    }
+
+
+    /* media queries up here */
+
     .img-droplet {
         max-width: 100%;
     }
@@ -501,6 +520,18 @@
 
     .border-blue{
         border-bottom: 1px solid #00229d;
+    }
+
+    @media screen and (max-width: 600px) {
+        .sect-six-table-title{
+            font-size: 21px;
+        }
+    }
+
+    @media screen and (min-width: 601px) {
+        .sect-six-table-title{
+            font-size: 28px;
+        }
     }
 
     /* media queries */
