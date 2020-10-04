@@ -150,19 +150,29 @@
         }
     }
 
-  .btn-sign-up {
-      padding: 10px 10px;
-      border: 1px solid #004aff;
-      border-radius: 5px;
-      color: #004aff;
-  }
+  
   /* font size of the list reduced */
-
   @media screen and (max-width: 1200px) {
       .container.header ul li a {
           font-size: 11px
       }
   }
+
+  .list-header li a{ 
+      color: black;
+
+  }
+
+   #btn-sign-up{
+    padding: 10px 10px;
+    border: 1px solid #004aff;
+    border-radius: 5px;
+    color: #004aff;
+}
+
+#btn-sign-up:hover{
+    background-color: rgb(248, 196, 23);
+}
   /* SECTION ONE -BLUE HERO */
 
   .section-one-blue-hero-container-full-width {
