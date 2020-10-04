@@ -629,14 +629,14 @@
 
     .vignetta {
         background-color: white;
-        width: 200px;
+        width: 300px;
         height: 45px;
         position: fixed;
         bottom: 25px;
         right: 80px;
         padding: 0 30px;
         border-radius: 5px;
-        font-size: 10px;
+        font-size: 12px;
         z-index: 2;
     }
     .vignetta::before {
@@ -717,7 +717,7 @@
             left: 0px;
             bottom: 0px;
         }
-        /* rimpicciolire il pesciolino e gestirlo con fixed             */
+       
         .fish-img {
             position: fixed;
             bottom: 20px;
