@@ -680,3 +680,61 @@
         right: 0px;
         bottom: 60px;
     }
+
+    @media screen and (max-width: 500px) {
+
+        .vignetta {
+            background-color: white;
+            width: 200px;
+            height: 45px;
+            position: fixed;
+            bottom: 25px;
+            left: 80px;
+            padding: 0 30px;
+            border-radius: 5px;
+            font-size: 10px;
+            z-index: 2;
+        }
+        .vignetta::before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            position: absolute;
+            left: -2px;
+            bottom: 5px;
+            transform: rotate(45deg);
+            border-radius: 2px;
+            
+        }
+        .fish {
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 20px;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+        }
+        /* rimpicciolire il pesciolino e gestirlo con fixed             */
+        .fish-img {
+            position: fixed;
+            bottom: 20px;
+            left: 5px;
+            max-width: 70px;
+        }
+        .number-2 {
+            width: 30px;
+            height: 30px;
+            color: white;
+            background-color: red;
+            border: 5px solid white;
+            text-align: center;
+            border-radius: 100%;
+            position: fixed;
+            left: 0px;
+            bottom: 60px;
+        }
+
+    }
