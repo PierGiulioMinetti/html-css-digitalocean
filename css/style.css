@@ -533,26 +533,8 @@
             font-size: 28px;
         }
     }
-
-    /* media queries */
-/*
-
-se riduco i testi per farli stare sulla stessa linea 
-diventano troppo piccoli e inlegibili
-    .sect-6-style-table>.row{
-        color: red;
-    }
-
-    .section-six-cities{
-        color: blue;
-    }
-
-    .section-six-speed{
-        color: orange;
-    }
-*/
     /* media queries up here */
-    /* --------------------------------------- */
+
 
     /* SECTION SEVEN - DEVELOPMENT */
     .section-seve-container-full-width {
@@ -582,6 +564,18 @@ diventano troppo piccoli e inlegibili
     #sect-seven-h2{
         color: #031c4e;
 
+    }
+
+    @media screen and (max-width: 600px) {
+        .sect-seven-scale-down-media{
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (min-width: 601px) {
+        .sect-seven-scale-down-media{
+            font-size: 16px;
+        }
     }
 
     /* SECTION EIGHT - GET STARTED */
